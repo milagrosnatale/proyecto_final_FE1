@@ -1,0 +1,520 @@
+/* Estilos globales */
+* {
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilos del Header */
+.contenedor-header {
+  color: #242e52;
+  font-weight: 500px;
+  height: 25vh;
+  justify-content: space-around;
+  padding: 0 55px;
+  transition: color 0.5s;
+  width: 100vw;
+}
+
+.contenedor-header li:hover {
+  color: rgb(36, 46, 82, 0.6);
+}
+
+.contenedor-lista {
+  margin-left: 25px;
+  margin: 0px;
+  padding: 0px;
+  width: 500px;
+}
+
+.contenedor-lista li {
+  list-style-type: none;
+  margin: 0px 15px;
+}
+
+.boton-get {
+  align-items: center;
+  background-color: #8b48bf;
+  border: none;
+  border-radius: 2em;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500px;
+  height: 44px;
+  justify-content: center;
+  transition: background-color 0.5s;
+  width: 140px;
+}
+
+.fa-bars {
+  font-size: 2rem;
+  display: none;
+}
+
+.boton-get:hover {
+  background-color: rgb(140, 74, 191, 0.7);
+}
+
+/* Estilos de Section */
+
+.section {
+  height: 70vh;
+  width: 100vw;
+}
+
+/* Estilos Primer Contenedor */
+
+.primer-contenedor {
+  margin-right: 25px;
+  height: 35%;
+  width: 40%;
+}
+
+.primer-contenedor h1 {
+  color: #232c50;
+  font-weight: 700px;
+  font-size: 66px;
+  letter-spacing: -4px;
+  margin: 66px 0 0 0;
+}
+
+.primer-contenedor p {
+  font-weight: 500px;
+  font-size: 16px;
+  color: #000000;
+  width: 70%;
+  line-height: 25px;
+}
+
+/* Estilos Segundo Contenedor */
+
+.segundo-contenedor {
+  width: 40%;
+}
+
+/*Estilos Tercer Contenedor */
+
+.tercer-contenedor {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 43%;
+}
+
+.tercer-contenedor h2 {
+  color: #232c50;
+  font-weight: 700px;
+  font-size: 36px;
+  justify-content: center;
+  letter-spacing: -2px;
+  margin: 0px;
+  width: 80%;
+}
+
+.tercer-contenedor p {
+  color: #000000;
+  font-weight: 500px;
+  font-size: 16px;
+  justify-content: flex-start;
+  letter-spacing: -1px;
+  line-height: 25px;
+  width: 50%;
+}
+
+/* Estilos Cuarto Contenedor */
+
+.cuarto-contenedor {
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px 0;
+  width: 40%;
+}
+
+.cuarto-contenedor h3 {
+  color: #323851;
+  font-weight: 700;
+  font-size: 16px;
+  justify-content: center;
+  letter-spacing: -1px;
+  width: 100%;
+}
+
+.cuarto-contenedor p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #b3b2b7;
+  margin: 0 0 8% 18%;
+  width: 80%;
+}
+
+.cuarto-contenedor span {
+  color: white;
+  background-color: #8b48bf;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 5%;
+  padding: 10px 25px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-radius: 25px 0 0 25px;
+}
+/* Tercer Section */
+
+.tercer-section {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Quinto Contenedor*/
+
+.quinto-contenedor h3 {
+  color: #242e53;
+  font-size: 39px;
+  font-weight: 700;
+  margin: 20px 0 100px 0;
+}
+
+/* Sexto Contenedor Cards Personas*/
+.contenedor-cards {
+  align-content: center;
+  justify-content: center;
+}
+
+.card-personas {
+  background-color: #fafafa;
+  flex-direction: column;
+  height: 219px;
+  text-align: center;
+  width: 445px;
+}
+
+.card-personas h5 {
+  color: #3f4868;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.card-personas p {
+  color: #b9b9c1;
+  font-size: 16px;
+  font-weight: 500px;
+  height: 78%;
+  margin: 0px;
+  padding: 0 0 35px 0;
+  width: 100%;
+}
+
+.card-personas img {
+  height: 70px;
+  position: relative;
+  top: -30px;
+  width: 70px;
+}
+
+/* Septimo Contenedor*/
+
+.septimo-contenedor {
+  margin-top: 40px;
+}
+
+/* Estilos del footer */
+footer {
+  flex-direction: column;
+}
+/* Primer Footer */
+.primer-footer {
+  background-color: #8b48bf;
+  color: white;
+  height: 25vh;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.primer-footer button {
+  background-color: white;
+  color: #8b48bf;
+}
+
+.primer-footer h2 {
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: -2px;
+  width: 500px;
+}
+
+/* Segundo Footer */
+.segundo-footer {
+  background-color: #1e1e26;
+  color: white;
+  height: 25vh;
+  justify-content: space-around;
+  padding: 25px 20px;
+  width: 100vw;
+}
+
+.logo-redes {
+  display: flex;
+  flex-direction: column;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-between;
+}
+
+#redes {
+  margin-top: 55px;
+}
+
+.lista-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 28vw;
+}
+
+.lista-footer li {
+  font-size: 16;
+  font-weight: 400;
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.lista-footer ul {
+  padding: 0px;
+}
+
+/* Estilos del Formulario */
+
+.formulario {
+  border: none;
+  border-radius: 2em;
+  color: #a0a0a0;
+  font-size: 13px;
+  font-weight: 600;
+  height: 44px;
+  margin-bottom: 65px;
+  width: 201px;
+}
+
+.boton-form {
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 6px;
+  height: 42px;
+  width: 63px;
+}
+
+/* Estilos copyright */
+
+.copyright {
+  color: #8c8c94;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.contenedor-copy {
+  display: none;
+}
+
+/* media queries */
+
+/* query */
+
+@media (max-width: 480px) {
+  /* header */
+  .contenedor-header {
+    height: 15vh;
+    justify-content: space-between;
+    width: 100vw;
+  }
+
+  .contenedor-header button,
+  .contenedor-lista,
+  .card-1,
+  .card-3 {
+    display: none;
+  }
+
+  .fa-bars {
+    color: #000000;
+    display: flex;
+    font-size: 2rem;
+  }
+
+  /* main */
+
+  /* primer section */
+
+  .primer-section {
+    align-content: space-around;
+    flex-direction: column-reverse;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .segundo-contenedor {
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .segundo-contenedor img {
+    width: 90%;
+  }
+
+  .primer-contenedor {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .primer-contenedor h1 {
+    font-size: 50px;
+    margin: 0;
+    width: 85%;
+  }
+
+  .primer-contenedor p {
+    font-size: 15px;
+    width: 70%;
+  }
+
+  /* segundo section */
+  .segundo-section {
+    align-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .tercer-contenedor {
+    align-items: center;
+    height: 30%;
+    text-align: center;
+    width: 100%;
+  }
+
+  .tercer-contenedor p {
+    width: 70%;
+  }
+
+  .cuarto-contenedor {
+    width: 100%;
+  }
+
+  .cuarto-contenedor h3 {
+    font-size: 16px;
+    width: 90%;
+    align-items: center;
+  }
+
+  .cuarto-contenedor p {
+    font-size: 16px;
+    margin: 10px 0 20px 30px;
+    width: 85%;
+  }
+
+  .row {
+    background-color: rgb(140, 74, 191, 0.3);
+    margin-left: 5%;
+  }
+
+  /* footer */
+
+  .primer-footer {
+    align-content: space-around;
+    flex-direction: column;
+    height: 40vh;
+  }
+
+  .primer-footer h2 {
+    margin: 0px;
+    text-align: center;
+    width: 65%;
+  }
+
+  .segundo-footer {
+    flex-direction: column-reverse;
+    height: 60vh;
+  }
+
+  .copyright {
+    display: none;
+  }
+
+  .contenedor-copy {
+    align-items: center;
+    background-color: #1e1e26;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+  }
+
+  .formulario {
+    width: 300px;
+  }
+
+  .copy {
+    color: #8c8c94;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0px;
+  }
+
+  .lista-footer {
+    justify-content: space-around;
+    width: 100vw;
+  }
+
+  .logo-redes {
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 90%;
+  }
+
+  .logo-redes img {
+    width: 180px;
+  }
+
+  #redes {
+    margin: 0 35px 55px 35px;
+  }
+
+  .redes img {
+    height: 20px;
+    width: 20px;
+  }
+}
